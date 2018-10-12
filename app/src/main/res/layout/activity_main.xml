@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ganador"
+        android:text="JUGADOR GANADOR"
+        android:gravity="center"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_jugador1"
+        android:hint="Jugador Uno"
+        android:gravity="center"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_jugador2"
+        android:hint="Jugador Dos"
+        android:gravity="center"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_jugador3"
+        android:hint="Jugador Tres"
+        android:gravity="center"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_comenzar"
+        android:text="Comenzar"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btn_parar"
+        android:text="Parar"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
